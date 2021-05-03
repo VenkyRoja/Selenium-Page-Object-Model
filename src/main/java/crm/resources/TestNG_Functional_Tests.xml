@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+
+  
+<suite name="Functional Test automation suite for Free CRM App" verbose="1" >
+
+	  <listeners>
+		   <listener class-name="crm.extentreportlistener.ExtentReportListener" />
+	  </listeners> 
+
+
+	  <test name="UI Test set" >
+	    <classes>
+	       <class name="crm.testcases.LoginPageTest" />
+	       <class name="crm.testcases.HomePageTest" />
+	       <class name="crm.testcases.ContactsPageTest" />
+	       <class name="crm.testcases.DealsPageTest" />
+	       <class name="crm.testcases.SignUpPageTest" />
+	       <class name="crm.testcases.TasksPageTest" />
+	    </classes>
+	  </test>
+  
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Sanity Test automation suite for Free CRM App" verbose="1" >
+
+	<listeners>
+		<listener class-name="crm.extentreportlistener.ExtentReportListener" />
+	</listeners>
+
+
+  	<test name="UI Sanity Test set" >
+    	<classes>
+       		<class name="crm.testcases.LoginPageTest" />
+       		<class name="crm.testcases.HomePageTest" />
+    	</classes>
+  	</test>
+  
+  
+</suite>
