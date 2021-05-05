@@ -10,7 +10,7 @@ public class TasksPage extends TestBase {
 
 	//--------Page Factory-------------Object Repository------------
 	
-	@FindBy(xpath="//div[contains(@class, 'ui headeryyyabcxyz')]")
+	@FindBy(xpath="//div[contains(@class, 'ui header')]")
 	WebElement tasksLabel;	
 	
 	//------------1-------------Constructor---------
